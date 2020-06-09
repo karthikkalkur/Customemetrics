@@ -6,7 +6,7 @@ This Project i have added 95 % and 99 % latency for REST API and Integrated that
 * 1 `gradlew bootRun`
 * 2  Pull Prometheus docker Image
 `docker pull prom/prometheus`
-* 3  Configure Prometheus and graphana[ Follw the Link] (https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/)
+* 3  Configure Prometheus and graphana[Follow the Link] (https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/)
 * 4 Run Prometheus Image
 
 `docker run -d --name=prometheus -p 9090:9090 -v /Users/kkarthika/research/Course-material/PluralSight/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus --config.file=/etc/prometheus/prometheus.yml`
